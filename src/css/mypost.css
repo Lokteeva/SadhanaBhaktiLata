@@ -3,7 +3,6 @@ body {
 }
 .mypost__container {
   padding: 20px;
-
 }
 .mypost__title {
   padding: 20px 0;
@@ -18,12 +17,11 @@ body {
   padding-top: 15px;
 }
 .mypost__list {
-  background-color:rgb(228, 225, 209);
   background: linear-gradient(to right, rgb(231, 227, 202),rgb(211, 221, 249) );
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
   position: relative;
   border-radius: 8px;
+ margin: 15px;
 }
 .mypost__name{
   text-align: center;

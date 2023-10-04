@@ -54,7 +54,7 @@ function CreatePost({ isAuth }) {
       questions,
       author: { name: auth.currentUser.displayName, id: auth.currentUser.uid },
     });
-    navigate('/');
+    navigate('/home');
   };
 
   //для аутинтификации пользователя

@@ -40,7 +40,7 @@ function Home({ isAuth }) {
     <div>
       <Header />
 
-      <div className="mypost__content">
+     <div className="mypost__content">
         {postList.map((post) => {
           return (
             <div className="mypost__list" key={post.id}>
@@ -149,7 +149,7 @@ function Home({ isAuth }) {
           );
         })}
       </div>
-    </div>
+     </div>
   );
 }
 export default Home;
