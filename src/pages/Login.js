@@ -18,6 +18,7 @@ function Login({ setIsAuth }) {
   return (
   
     <div className="loginEmail">
+      <h2>Харе Кришна!</h2>
       <div className="wrapper-login">
           
             <button className="login-with-google-btn " onClick={signInWithGoogle}>
