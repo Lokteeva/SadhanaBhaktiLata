@@ -32,10 +32,10 @@ function Header() {
 
 
   return (
-    <div className="header">
+    <div className="header ">
       {!isAuth ? (
         <Link to="/login">
-          <i  className="signin bx bx-log-in-circle"></i>
+          <h3 className="nav_in">Войти</h3>
         </Link>
       ) : (
         <div className="nav_in">
