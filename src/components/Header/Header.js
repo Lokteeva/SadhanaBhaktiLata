@@ -34,12 +34,12 @@ function Header() {
   return (
     <div className="header ">
       {!isAuth ? (
-        <Link to="/login">
+        <Link to="/">
           <h3 className="nav_in">Войти</h3>
         </Link>
       ) : (
         <div className="nav_in">
-          <Link to="/">
+          <Link to="/home">
             <div className="header__item">
               <h3>Мои отчеты</h3>
             </div>

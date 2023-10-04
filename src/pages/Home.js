@@ -39,7 +39,6 @@ function Home({ isAuth }) {
   return (
     <div>
       <Header />
-      <h2 className="mypost__title ">Мои отчеты</h2>
 
       <div className="mypost__content">
         {postList.map((post) => {
