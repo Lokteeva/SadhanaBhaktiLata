@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.loginEmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: url('./img/01.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wrapper {
+  width: 420px;
+  background-color: transparent;
+  color: #000000;
+  border-radius: 10px;
+  padding: 30px 40px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.wrapper h1 {
+  text-align: center;
+}
+.input_box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+.input_box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.input_box input::placeholder {
+  color: #fff;
+}
+.input_box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #fff;
+}
+.btn {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+.nav,
+.nav a {
+  margin: 0;
+  height: 80px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  column-gap: 40px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+.pointer {
+  padding-top: 4px;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 7px;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.4);
+}
+.activColor {
+  padding-top: 4px;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+  box-shadow: 5px 5px 7px rgba(255, 255, 255, 0.3);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 700;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  column-gap: 30px;
+}
+/* https://www.youtube.com/watch?v=WfLFhR2QqHE&list=WL&index=2 */
+
+
+/* страница login */
+.wrapper-login {
+  width: 420px;
+  background-color: transparent;
+  color: #000;
+  border-radius: 10px;
+  padding: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.login-with-google-btn {
+  /* width: 300px; */
+ margin: auto;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  padding: 12px 12px 15px 42px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  color: #757575;
+  font-size: 20px;
+  font-weight: 500;
+  background-image: url('./img/google.png');
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 12px 16px;
+  background-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+.login-with-google-btn:hover,
+.login-with-email:hover {
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.login-with-email {
+  /* width: 300px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin: auto;
+
+  border-radius: 40px;
+  padding: 12px 32px 15px 42px;
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #fff;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: 'Open Sans', sans-serif;
+}
+/* create post */
+.inputGp {
+  display: flex;
+  flex-direction: column;
+}
+.inputGp input,
+.inputGp textarea {
+  background-color:rgb(228, 225, 209);
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.inputGp textarea {
+  min-height: 150px;
+}
+.inputGp label {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.create-post-btn {
+  margin-top: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  margin-left: auto;
+  border: none;
+  border-radius: 40px;
+  padding: 12px 32px 12px 42px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #fff;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+}
+.create-post-btn:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  color: #333;
+}

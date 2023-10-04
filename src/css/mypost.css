@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(to right, rgb(255,193,90),rgb(139,150,178) );
+}
+.mypost__container {
+  padding: 20px;
+
+}
+.mypost__title {
+  padding: 20px 0;
+ text-align: center;
+}
+.mypost__content {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+.mypost__list {
+  background-color:rgb(228, 225, 209);
+  background: linear-gradient(to right, rgb(231, 227, 202),rgb(211, 221, 249) );
+
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  position: relative;
+  border-radius: 8px;
+}
+.mypost__name{
+  text-align: center;
+ color: rgb(191, 126, 46);
+
+}
+.deletePost i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+}
+.deletePost i:hover {
+  cursor: pointer;
+}
+.mypost_padding {
+  padding-bottom: 40px;
+}
+@media (max-width: 900px) {
+  .mypost__content {
+    max-width: 650px;
+  }
+}
+@media (max-width: 720px) {
+  .mypost__content {
+    max-width: 550px;
+  }
+}
+@media (max-width: 610px) {
+  .mypost__content {
+    max-width: 450px;
+  }
+}
+@media (max-width: 500px) {
+  .mypost__content {
+    max-width: 400px;
+  }
+}
+@media (max-width: 430px) {
+  .mypost__content {
+    max-width: 350px;
+  }
+}
+@media (max-width: 370px) {
+  .mypost__content {
+    max-width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .mypost__content {
+    max-width: 280px;
+  }
+}
