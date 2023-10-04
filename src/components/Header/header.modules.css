@@ -1,7 +1,6 @@
-
 .header {
   background-color: rgb(87, 81, 74);
-  padding: 20px 0 ;
+  padding: 20px 0;
 }
 .header a {
   color: #fff;
@@ -11,14 +10,19 @@
 .header a:hover {
   color: rgb(246, 220, 75);
 }
-.nav_in{
+.nav_in {
   display: flex;
-  column-gap: 40px;
-  justify-content: center;
+  flex-direction: column;
+  row-gap: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  /* column-gap: 40px; */
+  /* justify-content: center; */
+ 
 }
-.nav_in i{
- font-size: 30px;
- position: relative;
+.nav_in i {
+  font-size: 30px;
+  position: relative;
 }
 .signin {
   font-size: 30px;

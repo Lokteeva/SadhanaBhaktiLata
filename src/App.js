@@ -6,6 +6,7 @@ import './css/tooltip.css';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import CreatePost from './pages/CreatePost';
+import AdminPage from './pages/AdminPage';
 
 function App() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem('isAuth'));
@@ -13,6 +14,7 @@ function App() {
   return (
     <Router>
       <Routes>
+      <Route path="/admin" element={<AdminPage isAuth={isAuth} />} />
         <Route path="/home" element={<Home isAuth={isAuth} />} />
         <Route path="/" element={<Login setIsAuth={setIsAuth} />} />
         <Route path="/createpost" element={<CreatePost isAuth={isAuth} />} />

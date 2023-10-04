@@ -30,6 +30,7 @@ function Header() {
     return () => unsubscribe();
   }, []);
 
+
   return (
     <div className="header">
       {!isAuth ? (
@@ -38,6 +39,14 @@ function Header() {
         </Link>
       ) : (
         <div className="nav_in">
+          <Link to="/admin">
+            <div className="header__item">
+              <h3>Все отчеты</h3>
+            </div>
+          </Link>
+
+         
+
           <a href="#" onClick={signUserOut}>
             <div className="tooltip">
               <i className="bx bx-log-out">
@@ -45,37 +54,13 @@ function Header() {
               </i>
             </div>
           </a>
-          
-          <Link to="/home">
-            <div className="header__item">
-              <h3>Мои отчеты</h3>
-            </div>
-          </Link>
-
-          <Link to="/createpost">
-            <div className="header__item">
-              <h3>Создать отчет</h3>
-            </div>
-          </Link>
-
         </div>
       )}
 
-      {user && user.uid === 'dmYx5hA9HubCxmdmmmks4YnzNpG3' && (
-        <>
-          <div className="nav_in">
-            <Link to="/admin">
-              <div className="header__item">
-                <h3>Все отчеты</h3>
-              </div>
-            </Link>
-          </div>
-
-          
-        </>
-      )}
+      
+      
     </div>
   );
 }
 
-export default Header;
+export default Header
