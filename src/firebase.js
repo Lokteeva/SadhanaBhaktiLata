@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import {getAuth, GoogleAuthProvider} from 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: `${ process.env.REACT_APP_API_KEY}`,
-  authDomain: `${ process.env.REACT_APP_AUTHDOMAIN}`,
-  projectId: `${ process.env.REACT_APP_PROJECTID}`,
-  storageBucket: `${ process.env.REACT_APP_STORAGEBUCKET}`,
-  messagingSenderId: `${ process.env.REACT_APP_MESSAGINGSENDERID}`,
-  appId: `${ process.env.REACT_APP_APPID}`
+  apiKey: "AIzaSyDknqQ3uiAXOqQGL_dIfz4P--oh4j-bkMw",
+  authDomain: "blog-d866c.firebaseapp.com",
+  projectId: "blog-d866c",
+  storageBucket: "blog-d866c.appspot.com",
+  messagingSenderId: "1063565645469",
+  appId: "1:1063565645469:web:d409b6f30d9e647f476674"
 };
 
 // Initialize Firebase
@@ -19,3 +19,4 @@ export const db = getFirestore(app)
 export const auth = getAuth(app);
 export const provider = new GoogleAuthProvider();
 export const database = getAuth(app);
+
