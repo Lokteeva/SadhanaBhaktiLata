@@ -14,7 +14,8 @@ body {
   flex-direction: column;
   width: 750px;
   margin: auto;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 .mypost__list {
   background-color:rgb(228, 225, 209);

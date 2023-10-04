@@ -35,7 +35,7 @@ function Header() {
     <div className="header">
       {!isAuth ? (
         <Link to="/login">
-          <i  className="signin bx bx-log-in-circle"></i>
+          <h3>Вход</h3>
         </Link>
       ) : (
         <div className="nav_in">
