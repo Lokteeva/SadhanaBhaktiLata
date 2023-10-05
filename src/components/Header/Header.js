@@ -61,7 +61,7 @@ function Header() {
         </div>
       )}
 
-      {user && user.uid === 'PIbM2fHlGpXV0uLMt4VURgRx3OF2' && user.uid === 'dmYx5hA9HubCxmdmmmks4YnzNpG3' && (
+      {user && user.uid === 'PIbM2fHlGpXV0uLMt4VURgRx3OF2'  && (
         <>
           <div className="nav_in">
             <Link to="/admin">
